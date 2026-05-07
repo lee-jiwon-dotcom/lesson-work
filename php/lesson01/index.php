@@ -1,4 +1,2 @@
 <?php
-echo "何もない";
-bananana
-applendeliciousnbutngood
+echo "Hello, php!";
