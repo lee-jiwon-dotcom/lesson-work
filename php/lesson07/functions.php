@@ -17,7 +17,7 @@ echo PHP_EOL;
 
 function createGreeting(string $name): string
 {
-    return $name . "안녕하세요!";
+    return $name . "こんにちは!";
 }
 
 echo createGreeting('Yado');
@@ -26,9 +26,9 @@ echo PHP_EOL;
 function judgeScore(int $score): string
 {
     if ($score >= 80) {
-        return "합격입니다.";
+        return "合格です！";
     }
-    return "불합격 입니다.";
+    return "不合格です！";
 }
 echo judgeScore(79);
 echo PHP_EOL;
